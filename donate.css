@@ -1,0 +1,65 @@
+header img {
+  width: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+h1 {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+header img {
+  width: 100%;
+  height: 25rem;
+}
+.a-link {
+  font-size: x-large;
+  color: black;
+}
+.all-section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: left;
+}
+.prices-box div {
+  width: 10rem;
+}
+.prices-box div {
+  width: 10rem;
+  border: 5px blue solid;
+  padding: 5px 5px;
+}
+.donation-box-container {
+  width: 60%;
+  grid-template-columns: auto auto;
+}
+.donation-box img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.donation-box {
+  background-image: linear-gradient(45deg, #47f612, #e6d519);
+}
+.donation-box:hover {
+  background-image: linear-gradient(45deg, #0ccfbe, #dfd433);
+}
+.project-background:hover {
+  background-image: linear-gradient(45deg, #738df37b, #1ce039a7);
+  cursor: pointer;
+}
+.footer {
+  background-image: linear-gradient(45deg, #738df3, #20b136);
+}
+.footer-text {
+  color: white !important;
+}
+.text-white {
+  font-size: 3rem !important;
+  padding: 0.5rem;
+}
